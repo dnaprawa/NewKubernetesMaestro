@@ -18,9 +18,9 @@ spec:
     http:
       paths:
       - path: /
-        pathType: ImplementationSpecific
+        pathType: Prefix
         backend:
           service:
             name: info-webapp-svc-v2
-            port: 
+            port:
               number: 80
